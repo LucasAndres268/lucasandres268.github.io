@@ -9,8 +9,13 @@
 
   <!-- Bootstrap -->
   <!-- Latest compiled and minified CSS -->
+
+  
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="css/custom.css" rel="stylesheet">
+<link href="css/header.css" rel="stylesheet">
+<link href="css/contactos.css" rel="stylesheet">
+<link rel="stylesheet" href="path/to/your/styles.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,95 +25,89 @@
   <![endif]-->
 </head>
 <body>
-
-   <div class="container">
+  <div class="container">
     <div class="row">
       <!-- Sección de Header -->
+      <!-- Fin Sección de Header -->
       <header>
         <!-- Sección de Nav -->
-        <nav class="navbar navbar-default" role="navigation">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Zingueria a Medida</a>
-            </div>
+        <nav class="navbar navbar-default" role="navigation" style="background-color: #073f64 !important; color: #f1fcff !important; border: none; border-radius: 0; margin-bottom: 0; z-index: 1000;">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Desarrollos</a></li>
-                    <li><a href="#">Diseño</a></li>
-                    <li><a href="#">Publicidad</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Consultoria</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Otros</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Contacto</a></li>
-              </ul>
-
-              <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Buscador">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="border-color: #003b77; background-color: #063769;">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" style="color: #ecf0f1;">Zingueria a Medida</a>
                 </div>
-                <button type="submit" class="btn btn-default">Buscar</button>
-              </form>
-              
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Usuario</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mi cuenta <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Ingresar</a></li>
-                    <li><a href="#">Registrarse</a></li>
-                    <li><a href="#">Configuración</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Cerrar Sesión</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
+    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" style="color: #ecf0f1;">Inicio</a></li>
+                        <li><a href="#" style="color: #ecf0f1;">Nosotros</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #ecf0f1;">Servicios <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#" style="color: #ecf0f1;">Desarrollos</a></li>
+                                <li><a href="#" style="color: #ecf0f1;">Diseño</a></li>
+                                <li><a href="#" style="color: #ecf0f1;">Publicidad</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#" style="color: #ecf0f1;">Consultoria</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#" style="color: #ecf0f1;">Otros</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" style="color: #ecf0f1;">Contacto</a></li>
+                    </ul>
+    
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" style="color: #ecf0f1;">Usuario</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #ecf0f1;">Mi cuenta <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#" style="color: #ecf0f1;">Ingresar</a></li>
+                                <li><a href="#" style="color: #ecf0f1;">Registrarse</a></li>
+                                <li><a href="#" style="color: #ecf0f1;">Configuración</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#" style="color: #ecf0f1;">Cerrar Sesión</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
         </nav><!-- Fin Sección de Nav -->
-      </header><!-- Fin Sección de Header -->
+    </header>
+    
     </div>
   </div>
-
-
 
 
 
 <!-- Sección Jumbotron -->
 <div class="container">
   <div class="row">
-    <div class="jumbotron" style="position: relative; background-image: url('zingueria_foto1.jpg'); background-size: cover; height: 400px; color: rgb(255, 252, 252); text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8), 2px 2px 4px rgba(0, 0, 0, 0.5);">
+    <div class="jumbotron" style="position: relative;justify-self: center; background-image: url('zingueria_foto1.jpg'); background-size: cover; height: 400px; color: rgb(255, 252, 252); text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
       <!-- Capa oscura superpuesta -->
       <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(1, 1, 1, 0);"></div>
       
-      <h1 style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8), 2px 2px 4px rgba(0, 0, 0, 0.5);">Zinguería y Techos</h1>
-      <p>Especializados en la fabricación, instalación y reparación de zinguería y techos. Con años de experiencia, nos dedicamos a proporcionar soluciones de calidad para tus necesidades específicas.</p>
+      <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Zinguería y Techos</h1>
+      <p style="color: rgb(234, 236, 236);">Especializados en la fabricación, instalación y reparación de zinguería y techos. Con años de experiencia, nos dedicamos a proporcionar soluciones de calidad para tus necesidades específicas.</p>
       <p><a class="btn btn-primary btn-lg" role="button">Leer más</a></p>
     </div>
   </div>
 </div><!-- Fin Sección Jumbotron -->
 <!-- Fin Sección Jumbotron -->
 
+  
 
  <!-- Section artículo -->
 <div class="container">
-  <h2>Zinguería a Medida</h2>
+  <h2 style="color: #000000;">Zinguería a Medida</h2>
   <div class="row article-container">
       <!-- Primer artículo -->
       <div class="col-xs-6 col-sm-6 col-md-3 article">
@@ -227,11 +226,31 @@
     <hr>
   </div><!-- Sección de Multimedia -->
 
-  <!-- Sección Pie de Página -->
-  <footer class="footer-basic-centered">
-    <p class="footer-company-motto">Proyecto Autogestión</p>
-    <p class="footer-derechos">Todos los Derechos e Izquierdos Reservados &copy; 2017</p>
-  </footer><!-- Fin Sección Pie de Página -->
+
+  <div class="container contact-container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <h2>Contacto</h2>
+
+            <!-- Enlace de WhatsApp -->
+            <p>WhatsApp: <a href="https://wa.me/1234567890" target="_blank">123-456-7890</a></p>
+
+            <!-- Ubicación del vendedor -->
+            <p>Ubicación: Ciudad, País</p>
+
+            <!-- Correo electrónico (Gmail) -->
+            <p>Email: <a href="mailto:correo@gmail.com">correo@gmail.com</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <!-- Mapa localizador (puedes usar un iframe de Google Maps) -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d-73.98765432109876!3d40.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA2JzA3LjciTiA3M8KwNTEnMTMuNSJX!5e0!3m2!1sen!2sus!4v1585144242048!5m2!1sen!2sus"
+                    width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- Librerías y Archivos JS-->
@@ -241,5 +260,6 @@
 
 <!-- Bootstrap Latest compiled and minified JavaScript -->
 <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
