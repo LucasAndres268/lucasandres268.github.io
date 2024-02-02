@@ -13,8 +13,9 @@
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="css/custom.css" rel="stylesheet">
-<link href="css/header.css" rel="stylesheet">
+<link href="css/nav.css" rel="stylesheet">
 <link href="css/contactos.css" rel="stylesheet">
+<link href="css/wsp.css" rel="stylesheet">
 <link rel="stylesheet" href="path/to/your/styles.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -25,66 +26,67 @@
   <![endif]-->
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <!-- Sección de Header -->
-      <!-- Fin Sección de Header -->
-      <header>
-        <!-- Sección de Nav -->
-        <nav class="navbar navbar-default" role="navigation" style="background-color: #073f64 !important; color: #f1fcff !important; border: none; border-radius: 0; margin-bottom: 0; z-index: 1000;">
-
+ r
+  <div class="container-fluid" >
+      <div class="row">
+        <header>
+          <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin: 0 auto; background-color: rgb(0, 72, 144);" id="nav1">
             <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="border-color: #003b77; background-color: #063769;">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#" style="color: #ecf0f1;">Zingueria a Medida</a>
-                </div>
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="background-color: rgb(20, 162, 223);color: aliceblue;border: #fbf9f9">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar" style="background-color: #fbf9f9;"></span>
+                  <span class="icon-bar" style="background-color: #fbf9f9;"></span>
+                  <span class="icon-bar" style="background-color: #fbf9f9;"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="font-size: 3rem; color: aliceblue; text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.4), 0 0 15px rgba(0, 0, 0, 0.3);">
+                  Zingueria <span style="color: rgb(6, 245, 245); text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.4), 0 0 15px rgba(0, 0, 0, 0.3);">Zn</span>
+                </a>
+                
+                </a>
+                
+              </div>
     
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#" style="color: #ecf0f1;">Inicio</a></li>
-                        <li><a href="#" style="color: #ecf0f1;">Nosotros</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #ecf0f1;">Servicios <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#" style="color: #ecf0f1;">Desarrollos</a></li>
-                                <li><a href="#" style="color: #ecf0f1;">Diseño</a></li>
-                                <li><a href="#" style="color: #ecf0f1;">Publicidad</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#" style="color: #ecf0f1;">Consultoria</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#" style="color: #ecf0f1;">Otros</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#" style="color: #ecf0f1;">Contacto</a></li>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="#" style="font-size: 2rem;color: aliceblue;">Inicio</a></li>
+                  <li><a href="#" style="font-size: 2rem;color: aliceblue;">Nosotros</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 2rem;color: aliceblue;">Servicios <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#" style="font-size: 2rem;color: aliceblue;">Desarrollos</a></li>
+                      <li><a href="#" style="font-size: 2rem;color: aliceblue;">Diseño</a></li>
+                      <li><a href="#" style="font-size: 2rem;color: aliceblue;">Publicidad</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#" style="font-size: 2rem;color: aliceblue;">Consultoria</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#" style="font-size: 2rem;color: aliceblue;">Otros</a></li>
                     </ul>
+                  </li>
+                  <li><a href="#" style="font-size: 2rem;color: aliceblue;">Contacto</a></li>
+                </ul>
     
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" style="color: #ecf0f1;">Usuario</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #ecf0f1;">Mi cuenta <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#" style="color: #ecf0f1;">Ingresar</a></li>
-                                <li><a href="#" style="color: #ecf0f1;">Registrarse</a></li>
-                                <li><a href="#" style="color: #ecf0f1;">Configuración</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#" style="color: #ecf0f1;">Cerrar Sesión</a></li>
-                            </ul>
-                        </li>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#" style="font-size: 2rem;color: aliceblue;">Usuario</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 2rem;color: aliceblue;">Mi cuenta <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#" style="font-size: 2rem;">Ingresar</a></li>
+                      <li><a href="#" style="font-size: 2rem;">Registrarse</a></li>
+                      <li><a href="#" style="font-size: 2rem;">Configuración</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#" style="font-size: 2rem;">Cerrar Sesión</a></li>
                     </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav><!-- Fin Sección de Nav -->
-    </header>
-    
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
     </div>
-  </div>
+    
+
 
 
 
@@ -120,7 +122,7 @@
       <!-- Segundo artículo -->
       <div class="col-xs-6 col-sm-6 col-md-3 article">
           <img src="curva1.jpg" alt="Imagen 2">
-          <h3>Título del Artículo 2</h3>
+          <h3>Curvas</h3>
           <p>Descripción breve del artículo.</p>
           <a href="#" class="btn btn-primary">Saber más</a>
       </div>
@@ -128,7 +130,7 @@
       <!-- Tercer artículo -->
       <div class="col-xs-6 col-sm-6 col-md-3 article">
           <img src="babetas.jpg" alt="Imagen 3">
-          <h3>Título del Artículo 3</h3>
+          <h3>Babetas</h3>
           <p>Descripción breve del artículo.</p>
           <a href="#" class="btn btn-primary">Saber más</a>
       </div>
@@ -136,7 +138,7 @@
       <!-- Cuarto artículo -->
       <div class="col-xs-6 col-sm-6 col-md-3 article">
           <img src="capuchon2.jpg" alt="Imagen 4">
-          <h3>Título del Artículo 4</h3>
+          <h3>Capuchones</h3>
           <p>Descripción breve del artículo.</p>
           <a href="#" class="btn btn-primary">Saber más</a>
       </div>
@@ -144,7 +146,7 @@
       <!-- Quinto artículo -->
       <div class="col-xs-6 col-sm-6 col-md-3 article">
           <img src="conversa.jpg" alt="Imagen 5">
-          <h3>Título del Artículo 5</h3>
+          <h3>Conversa</h3>
           <p>Descripción breve del artículo.</p>
           <a href="#" class="btn btn-primary">Saber más</a>
       </div>
@@ -152,7 +154,7 @@
       <!-- Sexto artículo -->
       <div class="col-xs-6 col-sm-6 col-md-3 article">
           <img src="sombrero.jpg" alt="Imagen 6">
-          <h3>Título del Artículo 6</h3>
+          <h3>Sombrero spiro</h3>
           <p>Descripción breve del artículo.</p>
           <a href="#" class="btn btn-primary">Saber más</a>
       </div>
@@ -160,7 +162,7 @@
       <!-- Séptimo artículo -->
       <div class="col-xs-6 col-sm-6 col-md-3 article">
           <img src="cañosrectangulo.jpg" alt="Imagen 7">
-          <h3>Título del Artículo 7</h3>
+          <h3>Caños</h3>
           <p>Descripción breve del artículo.</p>
           <a href="#" class="btn btn-primary">Saber más</a>
       </div>
@@ -168,7 +170,7 @@
       <!-- Octavo artículo -->
       <div class="col-xs-6 col-sm-6 col-md-3 article">
           <img src="capuchones.jpg" alt="Imagen 8">
-          <h3>Título del Artículo 8</h3>
+          <h3>Caños</h3>
           <p>Descripción breve del artículo.</p>
           <a href="#" class="btn btn-primary">Saber más</a>
       </div>
@@ -252,6 +254,17 @@
     </div>
 </div>
 
+
+
+
+
+
+<div class="whatsapp-button">
+  <a href="https://wa.me/1234567890" target="_blank" class="animated-button">
+    <img src="wsp.jpg" alt="WhatsApp">
+    <h1>Contactanos por WhatsApp</h1>
+  </a>
+</div>
 
 <!-- Librerías y Archivos JS-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
