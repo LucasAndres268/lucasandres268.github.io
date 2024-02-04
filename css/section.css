@@ -1,0 +1,23 @@
+/* Estilos generales */
+@media (max-width: 768px) {
+
+  .article-container .article {
+    margin-bottom: 20px; 
+   /* Puedes ajustar este valor seg�n sea necesario */
+  }
+
+  .article p {
+    overflow: hidden;
+    text-overflow: ellipsis; /* Opcional: agrega puntos suspensivos (...) al final del texto recortado */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+.article p {
+  overflow: auto; /* O 'scroll' para agregar barras de desplazamiento siempre */
+}
+.article img {
+  width: 60%; /* Establece el ancho máximo como el 100% del contenedor padre */
+  height: 12rem; /* Ajusta automáticamente la altura para mantener la proporción original */
+  display: block; /* Evita problemas de espacio en blanco debajo de la imagen */
+}
+
+}

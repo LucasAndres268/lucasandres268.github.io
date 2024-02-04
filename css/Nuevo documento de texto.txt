@@ -1,0 +1,8 @@
+/* Estilos generales */
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .article-container .article {
+    margin-bottom: 20px; /* Puedes ajustar este valor según sea necesario */
+  }
+}
