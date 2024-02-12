@@ -1,0 +1,19 @@
+﻿.photo-section {
+  background-color: #f8f9fa; /* Color de fondo opcional */
+  padding: 20px;
+  width: 90%;
+  margin: 30px auto 0; /* Centrar la sección y aplicar margen superior */
+}
+
+.photo-column {
+  border: 2px solid #dee2e6; /* Borde para cada columna */
+  border-radius: 10px; /* Bordes redondeados */
+  overflow: hidden; /* Evita que el borde agregue un desbordamiento */
+  margin-bottom: 20px;
+}
+
+.photo-column img {
+  width: 90%;
+  height: 200px; /* Altura fija para los cuadros más pequeños */
+  object-fit: cover; /* Efecto de cover */
+}

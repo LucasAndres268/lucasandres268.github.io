@@ -1,269 +1,296 @@
 ﻿<!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Page Title</title>
 
-  <title>Página Web Básica con Bootstrap 3</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/quienesomos.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/fotos.css">
+    <link rel="stylesheet" href="css/nav.css">
+    
 
-  <!-- Bootstrap -->
-  <!-- Latest compiled and minified CSS -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
+
+
+    <style>
+        body {
+            max-width: 1200px; /* Adjust as needed */
+            margin: 0 auto; /* Center the body */
+        }
   
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link href="css/custom.css" rel="stylesheet">
-<link href="css/nav.css" rel="stylesheet">
-<link href="css/contactos.css" rel="stylesheet">
-<link href="css/wsp.css" rel="stylesheet">
-<link href="css/section.css" rel="stylesheet">
-<link rel="stylesheet" href="path/to/your/styles.css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+        .card {
+            margin-bottom: 20px;
+            margin-top: 1rem;
+        }
+        .card-img-top {
+            max-height: 155px; /* Adjust as needed */
+        }
+    </style>
 </head>
 <body>
- r
-  <div class="container-fluid" >
-      <div class="row">
-        <header>
-          <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin: 0 auto; background-color: rgb(0, 72, 144);" id="nav1">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="background-color: rgb(20, 162, 223);color: aliceblue;border: #fbf9f9">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar" style="background-color: #fbf9f9;"></span>
-                  <span class="icon-bar" style="background-color: #fbf9f9;"></span>
-                  <span class="icon-bar" style="background-color: #fbf9f9;"></span>
-                </button>
-                <a class="navbar-brand" href="#" style="font-size: 3rem; color: aliceblue; text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.4), 0 0 15px rgba(0, 0, 0, 0.3);">
-                  Zingueria <span style="color: rgb(6, 245, 245); text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.4), 0 0 15px rgba(0, 0, 0, 0.3);">Zn</span>
-                </a>
-                
-                </a>
-                
-              </div>
-    
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  <li><a href="#" style="font-size: 2rem;color: aliceblue;">Inicio</a></li>
-                  <li><a href="#" style="font-size: 2rem;color: aliceblue;">Nosotros</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 2rem;color: aliceblue;">Servicios <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="#" style="font-size: 2rem;color: aliceblue;">Desarrollos</a></li>
-                      <li><a href="#" style="font-size: 2rem;color: aliceblue;">Diseño</a></li>
-                      <li><a href="#" style="font-size: 2rem;color: aliceblue;">Publicidad</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#" style="font-size: 2rem;color: aliceblue;">Consultoria</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#" style="font-size: 2rem;color: aliceblue;">Otros</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#" style="font-size: 2rem;color: aliceblue;">Contacto</a></li>
-                </ul>
-    
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#" style="font-size: 2rem;color: aliceblue;">Usuario</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 2rem;color: aliceblue;">Mi cuenta <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="#" style="font-size: 2rem;">Ingresar</a></li>
-                      <li><a href="#" style="font-size: 2rem;">Registrarse</a></li>
-                      <li><a href="#" style="font-size: 2rem;">Configuración</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#" style="font-size: 2rem;">Cerrar Sesión</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
+   <!-- Contenedor para la ventana emergente de WhatsApp -->
+   <div id="whatsappPopup" class="position-fixed bottom-0 end-0 p-3" style="z-index: 1050;">
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <strong class="me-auto">Contáctanos por WhatsApp</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        ¡Hola! ¿En qué podemos ayudarte? <a href="https://wa.me/XXXXXXXXXX">Enviar mensaje</a>
       </div>
     </div>
-    
-
-
-
-
-<!-- Sección Jumbotron -->
-<div class="container">
-  <div class="row">
-    <div class="jumbotron" style="position: relative;justify-self: center; background-image: url('zingueria_foto1.jpg'); background-size: cover; height: 400px; color: rgb(255, 252, 252); text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
-      <!-- Capa oscura superpuesta -->
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(1, 1, 1, 0);"></div>
-      
-      <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Zinguería y Techos</h1>
-      <p style="color: rgb(234, 236, 236);">Especializados en la fabricación, instalación y reparación de zinguería y techos. Con años de experiencia, nos dedicamos a proporcionar soluciones de calidad para tus necesidades específicas.</p>
-      <p><a class="btn btn-primary btn-lg" role="button">Leer más</a></p>
-    </div>
   </div>
-</div><!-- Fin Sección Jumbotron -->
-<!-- Fin Sección Jumbotron -->
+  <button id="whatsappBtn" class="btn btn-primary position-fixed bottom-0 end-0 m-3" onclick="showWhatsappPopup()">Contáctanos por WhatsApp</button>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto" style="font-family: 'Permanent Marker', cursive;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-size: 24px;"><span style="color: rgb(0, 81, 255);">Zin</span>gueria Melli</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto" style="font-size: 18px; font-family: 'Exo 2', sans-serif;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Zinguería a medida</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
   
+  
+  
+  
 
- <!-- Section artículo -->
-  <div class="container" id="section1">
-    <h2 style="color: #000000;">Zinguería a Medida</h2>
-    <div class="row article-container">
-      <!-- Primer artículo -->
-      <div class="col-xs-8 col-sm-6 col-md-3 article">
-        <img src="zingueria_foto1.jpg" alt="Imagen 1">
-        <h3>Título del Artículo 1</h3>
-        <p>Descripción del Artículo 1. Puedes agregar información adicional sobre el artículo aquí.</p>
-        <a href="#" class="btn btn-primary">Saber más</a>
-      </div>
 
-      <!-- Segundo artículo -->
-      <div class="col-xs-8 col-sm-6 col-md-3 article">
-        <img src="curva1.jpg" alt="Imagen 2">
-        <h3>Curvas</h3>
-        <p>Descripción del Artículo 2. Puedes agregar información adicional sobre el artículo aquí.</p>
-        <a href="#" class="btn btn-primary">Saber más</a>
-      </div>
-
-      <!-- Tercer artículo -->
-      <div class="col-xs-8 col-sm-6 col-md-3 article">
-        <img src="babetas.jpg" alt="Imagen 3">
-        <h3>Babetas</h3>
-        <p>Descripción del Artículo 3. Puedes agregar información adicional sobre el artículo aquí.</p>
-        <a href="#" class="btn btn-primary">Saber más</a>
-      </div>
-
-      <!-- Cuarto artículo -->
-      <div class="col-xs-8 col-sm-6 col-md-3 article">
-        <img src="capuchon2.jpg" alt="Imagen 4">
-        <h3>Capuchones</h3>
-        <p>Descripción del Artículo 4. Puedes agregar información adicional sobre el artículo aquí.</p>
-        <a href="#" class="btn btn-primary">Saber más</a>
-      </div>
-
-      <!-- Quinto artículo -->
-      <div class="col-xs-8 col-sm-6 col-md-3 article">
-        <img src="conversa.jpg" alt="Imagen 5">
-        <h3>Conversa</h3>
-        <p>Descripción del Artículo 5. Puedes agregar información adicional sobre el artículo aquí.</p>
-        <a href="#" class="btn btn-primary">Saber más</a>
-      </div>
-
-      <!-- Sexto artículo -->
-      <div class="col-xs-8 col-sm-6 col-md-3 article">
-        <img src="sombrero.jpg" alt="Imagen 6">
-        <h3>Sombrero spiro</h3>
-        <p>Descripción del Artículo 6. Puedes agregar información adicional sobre el artículo aquí.</p>
-        <a href="#" class="btn btn-primary">Saber más</a>
-      </div>
-
-      <!-- Séptimo artículo -->
-      <div class="col-xs-8 col-sm-6 col-md-3 article">
-        <img src="cañosrectangulo.jpg" alt="Imagen 7">
-        <h3>Caños</h3>
-        <p>Descripción del Artículo 7. Puedes agregar información adicional sobre el artículo aquí.</p>
-        <a href="#" class="btn btn-primary">Saber más</a>
-      </div>
-
-      <!-- Octavo artículo -->
-      <div class="col-xs-8 col-sm-6 col-md-3 article">
-        <img src="capuchones.jpg" alt="Imagen 8">
-        <h3>Caños2</h3>
-        <p>Descripción del Artículo 8. Puedes agregar información adicional sobre el artículo aquí.</p>
-        <a href="#" class="btn btn-primary">Saber más</a>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="single-ply-roofing-.png" class="img-fluid " alt="..." style="width: 100%;height: 26rem;margin-top: 1rem;" >
+      
       </div>
     </div>
   </div>
+  
+     
+   
+  
+
+  <!-- Quienes somos -->
+  <div class="container  mt-5">
+    <section id="quienes-somos">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="mb-4">Nosotros</h2>
+          <p class="lead">Somos una empresa dedicada a...</p>
+          <p style="font-size: 16px;">
+            Somos una empresa familiar dedicada al sector de la construcción, especializándonos en zinguería y techos.
+            Nos destacamos por la instalación de techos nuevos, ya sea con tejas o chapas, así como por la fabricación
+            a medida de estructuras en herrería para techos. En el ámbito de la zinguería, nos especializamos en la
+            fabricación tanto de zinguería estándar como de proyectos personalizados. Además, ofrecemos servicios de
+            instalación para garantizar la durabilidad y eficiencia de nuestros productos. Nuestra pasión por la
+            excelencia se refleja en cada proyecto, asegurando la satisfacción de nuestros clientes.
+          </p>
+        </div>
+
+
+
+        <div class="col-lg-6">
+          <!-- Puedes agregar una imagen o elementos multimedia aquí -->
+          <img src="nosotros.jpg" class="img-fluid" alt="Imagen de Quiénes Somos" style="margin-top: 4rem;border-radius: 1rem;width: 26rem;">
+        </div>
+    
+    </section>
+  
+  </div>
+
+
+  <h2 style="text-align: center;color: rgb(0, 183, 255);margin-top: 2rem;">Zinguería a medida</h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4" style="justify-content: center; max-width: 90%; margin: 0 auto;">
+   
+    <div class="col-6">
+      <div class="card h-100">
+        <img src="convers2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Converza</h5>
+          <p class="card-text">
+            Desarrollo 33 - 40 - 50 cm.Presentación en tira de 2 metros..</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card h-100">
+        <img src="capuchon2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cumbrera</h5>
+          <p class="card-text">Desarrollo 33 - 40 cm. Presentación en tira de 2 metros.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card h-100">
+        <img src="babetas.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Babetas Para Techo Sobre Teja Chapa</h5>
+          <p class="card-text">• Desarrollo 20cm
+            • Calibre 30
+            • Precio por Metro Lineal
+            • Fabricación en tiras de 2.00 Metros</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card h-100">
+        <img src="america.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Canaleta Americana</h5>
+          <p class="card-text">Canaleta Americana
+            Ancho aprox. De 15 cm. Presentación en tira de 2 metros.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card h-100">
+        <img src="cañito.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Caños Rectangulares</h5>
+          <p class="card-text">Medidas standard: 7,5 x 5 cm. 10 x 5 cm. 10 x 5 cm. Para desague de canaletas. / 15 x 15 cm. 20 x 20 cm. 40 x 20 cm. Para ventilación de humo y/o gases.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card h-100">
+        <img src="accesorios.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sombreros y Codos</h5>
+          <p class="card-text">Sombrero 2 aros
+            Diametros disponibles: 3" 4" 5" 6" 7" 8" 10" 12"Aprobados para ventilación de termotanques, calefones, calderas y/o parrillas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
  
 
-  <!-- Sección de Multimedia -->
-  <div class="container" style="padding: 15px 10px;">
-    <div class="row">
-      
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="http://lorempixel.com/600/400/" target="_blank">
-            <img src="http://lorempixel.com/600/400/" alt="Lights" style="width:100%">
-            <div class="caption">
-              <p>Lorem ipsum...</p>
-            </div>
-          </a>
+  <section class="photo-section">
+    <div class="container">
+      <h2 class="text-center mb-4 " style="color: rgb(0, 153, 255);">Galeria</h2>
+      <div class="row">
+        <div class="col-md-4 photo-column">
+          <img src="1.jpg" class="d-block w-100" alt="Foto 1">
         </div>
-      </div>
+        <div class="col-md-4 photo-column">
+          <img src="2.jpg" class="d-block w-100" alt="Foto 2">
+        </div>
+        <div class="col-md-4 photo-column">
+          <img src="3.jpg" class="d-block w-100" alt="Foto 3">
+        </div>
 
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <div class="embed-responsive embed-responsive-4by3" style="padding-bottom: 66.9%;">
-            <iframe class="embed-responsive-item" width="560" height="235" src="https://www.youtube.com/embed/Y1HHBXDL9bg" frameborder="0" allowfullscreen></iframe>
+        <div class="col-md-4 photo-column">
+          <img src="4.jpg" class="d-block w-100" alt="Foto 2">
+        </div>
+        <div class="col-md-4 photo-column">
+          <img src="5.jpg" class="d-block w-100" alt="Foto 3">
+        </div>
+
+        <div class="col-md-4 photo-column">
+          <img src="6.jpg" class="d-block w-100" alt="Foto 2">
+        </div>
+        <div class="col-md-4 photo-column">
+          <img src="8.jpg" class="d-block w-100" alt="Foto 3">
+        </div>
+        <div class="col-md-4 photo-column">
+          <img src="7.jpg" class="d-block w-100" alt="Foto 2">
+        </div>
+        <div class="col-md-4 photo-column">
+          <img src="9.jpg" class="d-block w-100" alt="Foto 3">
+        </div>
+        <!-- Agrega más columnas según sea necesario -->
+      </div>
+    </div>
+  </section>
+  
+
+
+  <div class="container;" id="form">
+    <div class="row">
+      <!-- Sección del mapa y la información -->
+      <div class="col-md-6">
+        <div id="map-container" class="mb-4">
+          <!-- Puedes integrar aquí tu mapa o cualquier otro contenido relacionado con la ubicación -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.327538340758!2d-58.7548949!3d-34.5190198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1563e1fe057b89b6!2sHipermercado%20COTO!5e0!3m2!1sen!2sar!4v1644842159657!5m2!1sen!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <p>Información del negocio:</p>
+        <p>Dirección: [Dirección]</p>
+        <p>Teléfono: [Teléfono]</p>
+        <!-- Puedes agregar más información según tus necesidades -->
+      </div>
+  
+      <!-- Sección del formulario -->
+      <div class="col-md-6">
+        <div id="form-container">
+          <h2>Contacto</h2>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
-          <div class="caption"> <p>Lorem ipsum...</p> </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="http://lorempixel.com/600/400/" target="_blank">
-            <img src="http://lorempixel.com/600/400/" alt="Fjords" style="width:100%">
-            <div class="caption">
-              <p>Lorem ipsum...</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
+    
     </div>
-    <hr>
-  </div><!-- Sección de Multimedia -->
+  
+  </div>
 
 
-  <div class="container contact-container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-6">
-            <h2>Contacto</h2>
-
-            <!-- Enlace de WhatsApp -->
-            <p>WhatsApp: <a href="https://wa.me/1234567890" target="_blank">123-456-7890</a></p>
-
-            <!-- Ubicación del vendedor -->
-            <p>Ubicación: Ciudad, País</p>
-
-            <!-- Correo electrónico (Gmail) -->
-            <p>Email: <a href="mailto:correo@gmail.com">correo@gmail.com</a></p>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-            <!-- Mapa localizador (puedes usar un iframe de Google Maps) -->
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d-73.98765432109876!3d40.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA2JzA3LjciTiA3M8KwNTEnMTMuNSJX!5e0!3m2!1sen!2sus!4v1585144242048!5m2!1sen!2sus"
-                    width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script>
+    // Activar el carrusel para que pase automáticamente
+    var myCarousel = document.getElementById('carouselExampleCaptions');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 2000 // Cambiar aquí el intervalo de tiempo (en milisegundos) entre diapositivas
+    });
 
 
 
-
-
-
-<div class="whatsapp-button">
-  <a href="https://wa.me/1234567890" target="_blank" class="animated-button">
-    <img src="wsp.jpg" alt="WhatsApp">
-    <h1>Contactanos por WhatsApp</h1>
-  </a>
-</div>
-
-<!-- Librerías y Archivos JS-->
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-3.2.1.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-
-<!-- Bootstrap Latest compiled and minified JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+    function showWhatsappPopup() {
+      var whatsappPopup = new bootstrap.Toast(document.getElementById('whatsappPopup'));
+      whatsappPopup.show();
+    }
+  </script>
+  
+  <!-- Your additional scripts if needed -->
+  <!-- <script src="your-custom-scripts.js"></script> -->
 
 </body>
 </html>

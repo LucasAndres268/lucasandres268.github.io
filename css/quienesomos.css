@@ -1,0 +1,19 @@
+﻿  #quienes-somos {
+    background-color: #f8f9fa; /* Color de fondo ligeramente más claro que el blanco */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    padding: 30px; /* Menos espacio interno para un aspecto más equilibrado */
+    margin-top: 50px;
+}
+
+#quienes-somos h2 {
+    color: #007bff;
+    font-size: 2.5rem; /* Tamaño del texto aumentado */
+    margin-bottom: 20px; /* Mayor espacio inferior para separar el título del contenido */
+}
+
+#quienes-somos p {
+    color: #666; /* Color de texto ligeramente más oscuro para mayor contraste */
+    font-size: 1.2rem; /* Tamaño del texto aumentado */
+    line-height: 1.6; /* Espaciado de línea mejorado para una mejor legibilidad */
+}

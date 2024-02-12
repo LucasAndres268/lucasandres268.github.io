@@ -1,0 +1,19 @@
+﻿.card {
+    border: 1px solid #ccc; /* Añade un borde alrededor de las tarjetas */
+    border-radius: 10px; /* Hace que las esquinas de las tarjetas sean redondeadas */
+    overflow: hidden; /* Evita que las imágenes sobresalgan de las tarjetas */
+    transition: transform 0.3s; /* Agrega una transición suave al hacer hover sobre las tarjetas */
+  }
+
+  .card:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la tarjeta al hacer hover */
+  }
+
+  .card img {
+    max-height: 200px; /* Establece la altura máxima de las imágenes dentro de las tarjetas */
+    object-fit: cover; /* Escala y recorta la imagen para que se ajuste a la altura máxima */
+  }
+
+  .card-body {
+    padding: 15px; /* Añade un espacio interno en el cuerpo de la tarjeta */
+  }

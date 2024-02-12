@@ -1,10 +1,10 @@
-#nav1 {
-  width: 87%; /* Establece el ancho predeterminado */
+﻿.navbar {
+  color: blue;
+  max-width: 93%;
 }
 
-/* Establece el ancho al 100% en pantallas pequeñas */
-@media (max-width: 767px) {
-  #nav1 {
-    width: 100%;
+@media (max-width: 768px) {
+  .navbar {
+      max-width: 100%;
   }
 }
